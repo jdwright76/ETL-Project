@@ -1,12 +1,11 @@
-# ETL Project - Group 18
+# ETL Project - Group 18 - LA Restaurant Violations vs Yelp Rating
 
 * Sruthi Rajeswari
 * Austin Brantley
 * JD Wright
 
-#LA Restaurant Violations vs Yelp Rating
 
-### Data Sets:
+## Data Sets:
 Restaurant and Market Health violations and Inspection - From: Kaggle
 LA Health Inspection Report
 
