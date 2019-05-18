@@ -1,8 +1,8 @@
 # ETL Project - Group 18
 
--Sruthi Rajeswari
--Austin Brantley
--JD Wright
+* Sruthi Rajeswari
+* Austin Brantley
+* JD Wright
 
 LA Restaurant Violations vs Yelp Rating
 
@@ -13,11 +13,11 @@ LA Health Inspection Report
 
 
 ### Objectives
-E: Reading csv files for inspections and violations. Scrapped Yelp for restaurant rating.
+* E: Reading csv files for inspections and violations. Scrapped Yelp for restaurant rating.
 
-T: Iteraite inspections and insert violations into inspection
+* T: Iteraite inspections and insert violations into inspection
 
-L: Store data in Json form to load into Mongo DB
+* L: Store data in Json form to load into Mongo DB
 
 
 ### Summary
@@ -31,4 +31,4 @@ Finally, we convert the Dataframe into a Mongo DB friendly JSON format. We simpl
 
 ### Copyright
 
-Group 18 © 2019. All Rights Reserved.
+Group 18 - Foodie Group © 2019. All Rights Reserved.
