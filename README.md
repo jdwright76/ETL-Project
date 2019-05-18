@@ -10,12 +10,17 @@ Data Sets:
 Restaurant and Market Health violations and Inspection - From: Kaggle
 LA Health Inspection Report
 
+
+
+### Objectives
 E:Reading csv files for inspections and violations. Scrapped Yelp for restaurant rating.
 
 T:Iteraite inspections and insert violations into inspection
 
 L:Store data in Json form to load into Mongo DB
 
+
+### Abtract
 When we first started out it was difficult to nail down how we were going to Extract our data. Eventually we settled on the idea of grabbing 2 CSV files from Kaggle. These files are records of restraunt health inspections in LA.
 
 Our first goal was to Transform the data into a convienient format for analysis. With these two files seperate it would be difficult for anyone to gather useful conclutions from the Datasets. We used pandas to consolidate every individual violation a restraunt had and nest it inside a column of the file with each restraunt inspected (restaurant-and-market-health-inspections.csv ).
