@@ -13,11 +13,11 @@ LA Health Inspection Report
 
 
 ### Objectives
-E:Reading csv files for inspections and violations. Scrapped Yelp for restaurant rating.
+E: Reading csv files for inspections and violations. Scrapped Yelp for restaurant rating.
 
-T:Iteraite inspections and insert violations into inspection
+T: Iteraite inspections and insert violations into inspection
 
-L:Store data in Json form to load into Mongo DB
+L: Store data in Json form to load into Mongo DB
 
 
 ### Abtract
