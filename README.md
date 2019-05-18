@@ -4,9 +4,9 @@
 * Austin Brantley
 * JD Wright
 
-LA Restaurant Violations vs Yelp Rating
+#LA Restaurant Violations vs Yelp Rating
 
-Data Sets:
+##Data Sets:
 Restaurant and Market Health violations and Inspection - From: Kaggle
 LA Health Inspection Report
 
