@@ -24,7 +24,7 @@ When we first started out it was difficult to nail down how we were going to Ext
 
 Our first challenging goal was to Transform the data into a convienient format for analysis. With these two files seperate it would be difficult for anyone to gather useful conclutions from the Datasets. We used Pandas to consolidate every individual violation a restraunt. Then, it is nested inside a single column of the orignal master Dataframe.
 
-Our goal at this point is to query yelp for the review data on each restaurant inspected. After this is retrived its then added onto the master Dataframe. The motivation behind this is to give the Analyst more to work with.
+Our goal at this point was to query yelp for the review data on each restaurant inspected. After this is retrived its then added onto the master Dataframe. The motivation behind this is to give the Analyst more to work with.
 
 Finally, we convert the Dataframe into a Mongo DB friendly JSON format. We simply looped the inserts into the Mongo connection.
 
