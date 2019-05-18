@@ -1,0 +1,25 @@
+# ETL Project - Group 18
+
+-Sruthi Rajeswari
+-Austin Brantley
+-JD Wright
+
+LA Restaurant Violations vs Yelp Rating
+
+Data Sets:
+Restaurant and Market Health violations and Inspection - From: Kaggle
+LA Health Inspection Report
+
+E:Reading csv files for inspections and violations. Scrapped Yelp for restaurant rating.
+
+T:Iteraite inspections and insert violations into inspection
+
+L:Store data in Json form to load into Mongo DB
+
+When we first started out it was difficult to nail down how we were going to Extract our data. Eventually we settled on the idea of grabbing 2 CSV files from Kaggle. These files are records of restraunt health inspections in LA.
+
+Our first goal was to Transform the data into a convienient format for analysis. With these two files seperate it would be difficult for anyone to gather useful conclutions from the Datasets. We used pandas to consolidate every individual violation a restraunt had and nest it inside a column of the file with each restraunt inspected (restaurant-and-market-health-inspections.csv ).
+
+Our aspiration at this point is to query yelp for the review data on each restraunt inspected. The motivation behind this is to give the Analyst more to work with.
+
+Finally, we convert the Dataframe into a Mongo DB friendly JSON format. We simply looped the inserts into the Mongo connection.
