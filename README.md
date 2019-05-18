@@ -1,6 +1,4 @@
-# ETL Project - Group 18  
-
-## LA Restaurant Violations vs Yelp Rating
+# ETL Project - LA Restaurant Violations vs Yelp Rating
 
 * Sruthi Rajeswari
 * Austin Brantley
